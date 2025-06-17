@@ -27,7 +27,7 @@ const FileManager: React.FC = () => {
   const [previewFile, setPreviewFile] = useState<string | null>(null);
   const [previewUrl, setPreviewUrl] = useState<string>('');
 
-  const API_BASE_URL = 'http://localhost:5000/api';
+  const API_BASE_URL = 'https://express-vercel-deployment-ruddy.vercel.app/api';
 
   // Fetch files from server
   const fetchFiles = async (): Promise<void> => {
